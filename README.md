@@ -1,7 +1,9 @@
 # comfyui-xishen
-随机生成一个整数，输出到文本。 
-比如在使用ollama插件时由于提示词不变，首次执行有结果后第二次重新执行会直接跳过ollama。
-此小插件每次执行自动更新提示词，就是为了解决ollama无法多次循环出提示词的痛点。 
+
+随机生成一个整数，输出到文本。  
+比如在使用ollama插件时由于提示词不变，首次执行有结果后第二次重新执行会直接跳过ollama  
+此小插件每次执行自动更新提示词，就是为了解决ollama无法多次循环出提示词的痛点。  
+
 A custom node for ComfyUI that generates random numbers as text output.
 
 ## Features
