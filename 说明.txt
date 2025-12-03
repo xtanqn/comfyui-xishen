@@ -1,0 +1,10 @@
+
+
+cd comfyui-xishen
+
+git config --global user.email "523120096@qq.com"
+git config --global user.name "xtanqn"
+
+git add .
+git commit -m "完全覆盖线上仓库"
+git push --force origin main
