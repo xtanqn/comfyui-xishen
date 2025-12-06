@@ -1,7 +1,8 @@
 # comfyui-xishen / ComfyUI Xishen Nodes
 
 ## 简介 / Overview
-- 本插件提供五个节点：`随机整数-xishen`、`常用分辨率-xishen`、`常用提示词-xishen`、`去空行-xishen`、`智能展示文本-xishen`。
+申明：本插件为方便个人使用的整合节点包，部分节点实现参考开源代码，版权归属原作者，本人不做任何版权申明，所有人可以随意修改使用且不承诺后续更新。
+- 插件包提供五个节点：`随机整数-xishen`、`常用分辨率-xishen`、`常用提示词-xishen`、`去空行-xishen`、`智能展示文本-xishen`。
 - 复制到 ComfyUI 的 `custom_nodes` 目录并重启后即可使用，搜索 `xishen` 即可找到。
 - This plugin provides five nodes: `随机整数-xishen`, `常用分辨率-xishen`, `常用提示词-xishen`, `去空行-xishen`, and `智能展示文本-xishen`.
 - Copy into ComfyUI `custom_nodes` and restart; search `xishen` to find them.
@@ -20,6 +21,13 @@
 - 输出 Outputs: `STRING`
 - 用法 Usage: 智能展示多行文本内容，自动处理换行符并过滤空行，提供良好的视觉体验。
 - Notes: 支持多行文本显示，固定高度文本框带滚动条，节点窗口自动适应内容大小。
+
+### 编辑提示词-xishen / Edit Prompt - xishen
+- 类别 Category: `xishen`
+- 输入 Inputs: `text`(`STRING`)
+- 输出 Outputs: `STRING`
+- 用法 Usage: 接收文本输入，暂停工作流执行，允许用户编辑文本内容，点击"继续执行"按钮后将编辑后的文本作为输出。
+- Notes: 支持多行文本编辑，暂停工作流等待用户输入，实时更新节点上的文本内容，提供取消和确认按钮控制工作流状态。
 
 ### 随机整数-xishen / Random Integer - xishen
 - 类别 Category: `xishen`
@@ -59,7 +67,9 @@
 - Connect `Latent` from `常用分辨率-xishen` to samplers; use `Width/Height` as needed.
 - Use `常用提示词-xishen` for category-based prompt outputs; `number_int` for branching.
 - Use `去空行-xishen` to strip blank lines while preserving original line endings.
-
+- 参考项目：
+  - [comfyui-prompt-control](https://github.com/asagi4/comfyui-prompt-control)
+  - [ComfyUI_Comfyroll_CustomNodes](https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes)
 ## 许可 / License
 - 使用仓库内的 `LICENSE` 文件；MIT 许可。
 - See repository `LICENSE`; MIT licensed.
