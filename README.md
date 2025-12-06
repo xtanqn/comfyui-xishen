@@ -1,7 +1,7 @@
 # comfyui-xishen / ComfyUI Xishen Nodes
 
 ## 简介 / Overview
-申明：本插件为方便个人使用的整合节点包，部分节点实现参考开源代码，版权归属原作者，本人不做任何版权申明，所有人可以随意修改使用且不承诺后续更新。
+申明：本插件为方便个人使用的整合节点包，部分节点实现参考开源代码，版权归属原作者，本人不做任何版权申明，所有人可以随意修改使用，且本人不承诺后续更新，如有需求可以ISSUES。
 - 插件包提供五个节点：`随机整数-xishen`、`常用分辨率-xishen`、`常用提示词-xishen`、`去空行-xishen`、`智能展示文本-xishen`。
 - 复制到 ComfyUI 的 `custom_nodes` 目录并重启后即可使用，搜索 `xishen` 即可找到。
 - This plugin provides five nodes: `随机整数-xishen`, `常用分辨率-xishen`, `常用提示词-xishen`, `去空行-xishen`, and `智能展示文本-xishen`.
