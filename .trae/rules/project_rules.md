@@ -1,0 +1,2 @@
+D:\ComfyUI_windows_portable\python_embeded\python.exe 请用这个环境执行py脚本
+不要生成test测试文件，所有修改我将手动自主验证，以免浪费时间
